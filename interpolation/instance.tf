@@ -1,3 +1,4 @@
+##para ejecutar el ambiente de dev: terraform apply -var ENV=dev
 data "aws_ami" "ubuntu" {
   most_recent = true
 
